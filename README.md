@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Ellen's Personal Portfolio
 
-# Run and deploy your AI Studio app
+A modern, interactive personal portfolio and landing page built with React, Vite, and Tailwind CSS. 
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/fe291c88-678a-4919-953b-0462eb765742
+- **Hero Landing**: A sleek landing view with a masked background image and social links.
+- **Interactive Hiking Globe**: A 3D interactive globe showcasing favorite hiking trails around the world using `three-globe` and React.
+- **Featured Video Section**: A styled video section designed to express core values and highlights.
+- **Responsive Design**: Mobile-first, fluid layout using Tailwind CSS utility classes.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- [React](https://reactjs.org/) (v18+)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Three.js](https://threejs.org/) & [Three Globe](https://github.com/vasturiano/three-globe)
+- [Lucide React](https://lucide.dev/) for icons
+- [Framer Motion](https://www.framer.com/motion/) for animations
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Structure
+
+- `src/components/HeroSection.tsx`: The top landing section with an image mask.
+- `src/components/HikingGlobe.tsx`: The interactive 3D globe component mapped with hiking coordinates.
+- `src/components/FeaturedVideoSection.tsx`: Highlight video and values section.
+- `src/components/AboutSection.tsx`: Additional info about Ellen.
+
+## License
+
+MIT License.
